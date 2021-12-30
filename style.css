@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #171717;
+}
+.card{
+    width: 50px; height: 50px;
+    background: rgba(225, 225, 225, 0.144);
+    border-radius: 10px;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    inset 0 20px 20px rgba(253,253,253,0.205);
+    margin: 15px; display: flex;
+    justify-content: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 2em;
+    color: rgba(225, 225, 225, 0.336);
+    position: relative;
+    transition: box-shadow .4s , color .8s , transform .4s;
+}
+.card:hover{
+    color: white;
+    
+
+}
+
+.card:nth-of-type(1):hover{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    inset 0 20px 50px #833AB4,
+    inset 10px 0 10px #FD1d1d;
+    
+   
+}
+.card:nth-of-type(2):hover{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    inset 0 30px 20px #128c7e,
+    inset 20px 0 50px #25d366;
+}
+.card:nth-of-type(3):hover{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    inset 0 30px 10px #00c6ff,
+    inset 10px 0 50px #0078ff;
+}
+.card:nth-of-type(4):hover{
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.205),
+    inset 0 30px 20px #0077b5,
+    inset 10px 0 50px #34b7f1;
+}
